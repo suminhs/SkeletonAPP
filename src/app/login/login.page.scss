@@ -21,13 +21,14 @@
         transform: scale(0.5);
     }
 }
+
+ // SkeletonApp //
 ion-title {
-    color: #850303;      
+    color: #850303;
+    text-align: center;      
 }
 
-ion-card-content {    
-    text-align: center;
-}
+
 ion-card {
     background: white;
     border-radius: 10px;
@@ -35,7 +36,8 @@ ion-card {
 }
 
 ion-card-header {
-    text-align: center;    
+    text-align: center;
+        
 }
 
 ion-card-title {
@@ -44,11 +46,12 @@ ion-card-title {
     margin-bottom: 2px;
     margin-top: 5px;
     
-    
+   // Aqui comienza todo // 
 }
 ion-card-subtitle {
     --color: #850303;
-    text-align: center;    
+    text-align: center;
+    margin-top: 10px;    
 }
 
 ion-item {
