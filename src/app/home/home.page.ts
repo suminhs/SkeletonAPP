@@ -22,18 +22,23 @@ export class HomePage {
     this.user = nav.user || 'Invitado';
     }
 
-  limpiarCampos() {
-    this.nombre = '';
-    this.apellido = '';
-    this.nivel = '';  
-  }
-
   abrirCalendario() {
     this.mostrarCalendario = true;
   }
 
   cerrarCalendario() {
     this.mostrarCalendario = false;
+  }
+  
+  seleccionarFecha(event: any) {
+    this.fechaNacimiento = event.detail.value;
+  }  
+
+  limpiarCampos() {
+    this.nombre = '';
+    this.apellido = '';
+    this.nivel = '';
+    this.fechaNacimiento = '';  
   }
 
 
